@@ -23,4 +23,4 @@ ENV TZ Africa/Nairobi
 EXPOSE 8080
 
 # Start the app
-CMD [ "bin/www" ]
+CMD [ "node", "./bin/www" ]
