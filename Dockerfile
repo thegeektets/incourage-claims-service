@@ -13,10 +13,6 @@ RUN npm install
 # Copy the rest of the application's files
 COPY  . .
 
-FROM gcr.io/distroless/nodejs:14 
-
-WORKDIR /app
-
 ARG DOCKER_ENV
 
 ENV DOCKER_ENV=$DOCKER_ENV
