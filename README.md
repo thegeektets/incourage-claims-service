@@ -46,7 +46,6 @@ API Endpoints
 
 This endpoint is used to handle USSD claims. It accepts a JSON request with the following format:
 
-jsonCopy code
 
 `{
     "phoneNumber": "",
@@ -60,7 +59,6 @@ jsonCopy code
 
 This endpoint is used to handle SMS claims. It accepts a JSON request with the following format:
 
-jsonCopy code
 
 `{
     "phoneNumber": "",
@@ -74,7 +72,6 @@ jsonCopy code
 
 This endpoint is used to handle Telegram claims. It accepts a JSON request with the following format:
 
-jsonCopy code
 
 `{
     "chatId": "",
@@ -92,7 +89,6 @@ Running the Service
 
 To start the service, run the following command in the terminal:
 
-sqlCopy code
 
 `npm start`
 
