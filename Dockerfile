@@ -23,8 +23,6 @@ ENV DOCKER_ENV=$DOCKER_ENV
 
 ENV TZ Africa/Nairobi
 
-COPY --from=build-env /usr/src/app ./
-
 # Expose the port the app runs on
 EXPOSE 8080
 
