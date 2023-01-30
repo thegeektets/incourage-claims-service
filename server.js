@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const router = express.Router();
-const ClaimController = require("./ClaimController");
+const ClaimController = require("./claimController");
 
 const claimController = new ClaimController();
 app.use(express.json());
