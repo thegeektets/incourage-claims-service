@@ -1,9 +1,27 @@
 {
+  "name": "incourage",
+  "lockfileVersion": 2,
+  "requires": true,
+
+  "scripts": {
+    "prestart": "jest",
+    "lint": "eslint . --ext .js --fix",
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test": "jest",
+    "coverage": "jest --coverage"
+    },
   "dependencies": {
     "express": "^4.18.2",
     "firebase-admin": "^11.5.0",
+    "jest": "^29.4.1",
+    "mocha": "^10.2.0",
     "mongoose": "^6.9.0",
     "node-telegram-bot-api": "^0.61.0",
+    "supertest": "^6.3.3",
     "twilio": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
   }
 }

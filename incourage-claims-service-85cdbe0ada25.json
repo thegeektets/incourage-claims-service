@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "incourage-claims-service",
+  "private_key_id": "85cdbe0ada25816ffff04c34e5e7ee807f18ee79",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCb5lvz9rzFAVQR\nSHzhSF1ot3vK7LUJo1dakkYoI9ROzDHmjbH553B+KIQM5jpoO3dtX0jShl1olVCi\nO877C3fKsLhAW/uYyEvMZj/TplX06C5r+9jAXZ0WEkK4sPjv9TKdOIyTr6of3wgO\nJokXE/I9ZjclmLrEkS9d/DZuifJmKlbi/HzIu53eYv1feHW0ENru+PaliVKx8rUU\nJzsBO9+6NQiA8rCUeQMJtAvglCi7NqFgtLb9rwWn8hO0iKE6C1Urf4UCOsFbvXrQ\nny/QrIasbib0Ikg+/eMPYCSZ7QUhu2qXGN7sJia0c6XVIP02CsYlZkBimxfgk1BV\ni40kVkAdAgMBAAECggEAAp6SfXOJtO3iiN7OefK/RQoa/Z9QCsv28aBJc8iBIcJn\n26KWWRqH88qzYbJNmW1xKOiKS4umTqJ+bH3Nd4wRoXMQlkSlYjbW7swdNu2eZJzK\nr0kX2Xv8YdmBMjBUPAq2SyXfCmbP2JskyMFITOSEJ0vY63Wlouj4lYW7FjNID1Dd\nYlVHa8Fk+8DEyfPUixpNgRqLIewOFmckx0L8gUxgionChU5tTzbIlVC25+Waq2Wd\nCtWiNIDXtlK+ae9/fhCGS/tbuQ1lWbiCHcMQ7VkIdu0Titx7sOJ5S1wQOwqtnW9D\ndtXLhld1eybO/cwa5n/aSNqzs6RKDI/pAbAPskGWOQKBgQDOw1L3em1Ef+no6k5w\ndzxV+khj5AAhXxKI12dN1RIdqzKd89o2ExPcQQWyaiYKtW02V+2lyrMWDDiJkxW0\n0nWdZZ9WZ4TFzK1mMBS2b9C5Q9Q82mAgbFw5teQv7lxOxfuUX58GOFQ/sX6aMjxE\niSE4lzECX/RxTCGxmVhHYPl9tQKBgQDBBlGAUp10Vnma2hTCwEcTBoKaS+bbu5pB\n7UWFBexxWSMFI0Ty+CBfJmVeJQAOMK8ga0B8B1jtEg7OYZasS0+QJ/ijZuW7+HUf\nCaawSbNnxqejaqspj/ChMXXSB2IELfR4s0KSMWxfCmwgIOChVT3m5ca6vVaA/5rz\njrjiiOh5yQKBgQCNj4GQWsvQ6Fr30uPdcGVo4DEL4yCLuJHyCrh5u3Xpxjqjlj9C\nYpFobUQ/QRnGnyyk1lKo/jzazYcv+foUkTthhiAvgjSPUHEv0596wNeA4IXBHCpQ\nSKBkCrqubl3YuQhkL4urMInOCfIKFHba3aBXJHyziYrMvzkaZUjhpe1rOQKBgBd2\nSyXL5POlJzbZVzis4na/jdRvcWo4DXICAzc+FxVX/le7h7/4xQaLxjqBSNZwuHi6\nUKZCxl5amY4gco4SwWMGWMST10zX0HSrWaWH79SnYu0MJC3zHw6Y0ndrClDzvQmG\n0IqwkzmiLK5jEKrLj7CnMVa1ePRJHW6JZJO0jH1xAoGACe32BDWY+Jz726c8/xHD\nAHC+Je8hQIJJFDmKaHeQjkLA+Mttb6oIs0EMtHtGmfnft8URK7fHz9NiEYL9rT1F\nlMGRk2duduUJ85DSQfr6A+6mkXQlnpbThk6S7zH7+xV9EyhlSxmlk8rT3GDH/m8m\nXfAVm4ityV7HNDcIkih3ZLw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-su7ff@incourage-claims-service.iam.gserviceaccount.com",
+  "client_id": "117802914468589458584",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-su7ff%40incourage-claims-service.iam.gserviceaccount.com"
+}

@@ -11,10 +11,22 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the application's files
-COPY . .
+COPY  . .
+
+FROM gcr.io/distroless/nodejs:14 
+
+WORKDIR /app
+
+ARG DOCKER_ENV
+
+ENV DOCKER_ENV=$DOCKER_ENV
+
+ENV TZ Africa/Nairobi
+
+COPY --from=build-env /usr/src/app ./
 
 # Expose the port the app runs on
 EXPOSE 3000
 
 # Start the app
-CMD [ "npm", "start" ]
+CMD [ "bin/www" ]
