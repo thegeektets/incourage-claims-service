@@ -1,6 +1,6 @@
 class ClaimController {
   constructor() {
-    this.claimService = new (require("./ClaimService"))();
+    this.claimService = new (require("./claimService"))();
   }
 
   async handleUSSDClaim(req, res) {
