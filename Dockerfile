@@ -20,7 +20,7 @@ ENV DOCKER_ENV=$DOCKER_ENV
 ENV TZ Africa/Nairobi
 
 # Expose the port the app runs on
-EXPOSE 8080
+EXPOSE 5699
 
 # Start the app
 CMD [ "node", "./bin/www" ]

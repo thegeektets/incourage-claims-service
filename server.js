@@ -20,6 +20,6 @@ app.use("/claims", router);
 
 module.exports = app;
 
-const PORT = 8080;
+const PORT = 5699;
 const HOST = "0.0.0.0";
 app.listen(PORT, HOST);
