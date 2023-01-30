@@ -96,4 +96,4 @@ sqlCopy code
 
 `npm start`
 
-This will start the service on `http://0.0.0.0:8080/claims`.
+This will start the service on `http://0.0.0.0:8080/claims`
