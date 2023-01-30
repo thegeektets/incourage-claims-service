@@ -24,7 +24,7 @@ class ClaimService {
     let accountSid = "";
     let authToken = "";
 
-    this.telegramBot = new TelegramBot(token, { polling: true });
+    // this.telegramBot = new TelegramBot(token, { polling: true });
     // this.twilioClient = twilio(accountSid, authToken);
   }
   async storeClaim(claimType, phoneNumber, description) {
@@ -61,10 +61,10 @@ class ClaimService {
     const { claimType, description, chatId, phoneNumber } = req.body;
     try {
       await this.storeClaim(claimType, phoneNumber, description);
-      this.telegramBot.sendMessage(
-        chatId,
-        `Thank you for your claim. Your claim type is ${claimType} and the claim description is ${description}. Our team will get back to you soon.`
-      );
+      // this.telegramBot.sendMessage(
+      //   chatId,
+      //   `Thank you for your claim. Your claim type is ${claimType} and the claim description is ${description}. Our team will get back to you soon.`
+      // );
     } catch (error) {
       console.log(error);
       // error handling
@@ -80,11 +80,11 @@ class ClaimService {
       //   from: "+11234567890",
       //   body: `Thank you for your claim. Your claim type is ${claimType} and the claim description is ${description}. Our team will get back to you soon.`,
       // });
-      // await this.storeClaim(claimType, phoneNumber, description);
-      // console.log(message.sid);
-      // res.send(
-      //   `Thank you for your claim. Your claim type is ${claimType} and the claim description is ${description}. Our team will get back to you soon.`
-      // );
+      await this.storeClaim(claimType, phoneNumber, description);
+      console.log(message.sid);
+      res.send(
+        `Thank you for your claim. Your claim type is ${claimType} and the claim description is ${description}. Our team will get back to you soon.`
+      );
     } catch (error) {
       console.log(error);
       // error handling

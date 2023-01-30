@@ -4,7 +4,6 @@
   "requires": true,
 
   "scripts": {
-    "prestart": "jest",
     "lint": "eslint . --ext .js --fix",
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",

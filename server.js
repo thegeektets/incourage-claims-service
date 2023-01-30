@@ -3,16 +3,23 @@ const app = express();
 const router = express.Router();
 const ClaimController = require("./ClaimController");
 
-router.post("/ussd", (req, res) => ClaimController.handleUSSDClaim(req, res));
-router.post("/sms", (req, res) => ClaimController.handleSMSClaim(req, res));
+const claimController = new ClaimController();
+app.use(express.json());
+
+router.post("/ussd", (req, res) => claimController.handleUSSDClaim(req, res));
+router.post("/sms", (req, res) => {
+  console.log("req", req.body);
+
+  claimController.handleSMSClaim(req, res);
+});
 router.post("/telegram", (req, res) =>
-  ClaimController.handleTelegramClaim(req, res)
+  claimController.handleTelegramClaim(req, res)
 );
 
 app.use("/claims", router);
 
 module.exports = app;
 
-const PORT = 3000;
+const PORT = 8080;
 const HOST = "0.0.0.0";
 app.listen(PORT, HOST);
