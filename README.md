@@ -16,6 +16,11 @@ Table of Contents
 -   [Deployment](https://chat.openai.com/chat#Deployment)
 -   [Running the Service](https://chat.openai.com/chat#Running-the-Service)
 
+
+Root URL
+-----------------
+https://incourage-claims-service-ofcqx26pbq-uc.a.run.app/
+
 Requirements
 ------------
 

@@ -18,6 +18,14 @@ router.post("/telegram", (req, res) =>
 
 app.use("/claims", router);
 
+app.use((req, res) => {
+    const respond = {
+      status: false,
+      message: 'incourage claims service , confirm url is correct',
+    };
+    res.send(respond);
+  });
+
 module.exports = app;
 
 const PORT = 5699;
